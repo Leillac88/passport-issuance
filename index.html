@@ -46,13 +46,30 @@
     </nav>
 
     <main>
-        <div class="page-title">
-            <h2>Nova Solicitação de Passaporte</h2>
+        <div class="progress-bar">
+            <div class="step-1">Dados Pessoais</div>
+            <div class="step-2">Documentos</div>
+            <div class="step-3">Dados complementares</div>
+            <div class="step-4">Revisar dados</div>     
         </div>
-        <section class="section-1">
-            <h3>Dados Pessoais</h3>
 
-        </section>
+        <div class="tabs">
+            <section class="tab-active" id="aba1">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="Nome completo:" input required type="text" name="nomeCompleto"></label>
+                    <label for="Sexo:">
+                        <select required name="sexo">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Nao especificado">Não especificado</option>
+                        </select>
+                    </label>
+
+                </fieldset>
+            </section>
+        </div>
+        
     </main>
 
 
