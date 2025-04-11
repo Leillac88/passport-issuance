@@ -57,15 +57,21 @@
             <section class="tab-active" id="aba1">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
-                    <label for="Nome completo:" input required type="text" name="nomeCompleto"></label>
-                    <label for="Sexo:">
-                        <select required name="sexo">
-                            <option value="Masculino">Masculino</option>
-                            <option value="Feminino">Feminino</option>
-                            <option value="Nao especificado">Não especificado</option>
-                        </select>
-                    </label>
-
+                    
+                    <div class="row1">
+                        <label for="nome">Nome completo:
+                            <input type="text" id="nome" required>
+                        </label>
+                        <label for="sexo">Sexo:
+                            <select id="sexo" required>
+                                <option value="">Selecione</option>
+                                <option value="">Masculino</option>
+                                <option value="">Feminino</option>
+                                <option value="">Não especificado</option>
+                            </select>
+                        </label>
+                    </div>
+                    
                 </fieldset>
             </section>
         </div>
