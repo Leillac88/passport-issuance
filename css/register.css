@@ -188,7 +188,7 @@ label {
 }
   
 .row1 label:first-child {
-    flex: 4;
+    flex: 2;
 }
   
 .row1 label:last-child {
@@ -208,7 +208,7 @@ label {
 }
   
 .row2 label:first-child {
-    flex: 4;
+    flex: 2;
 }
   
 .row2 label:last-child {
@@ -228,7 +228,7 @@ label {
 }
   
 .row3 label:first-child {
-    flex: 4;
+    flex: 2;
 }
   
 .row3 label:last-child {
@@ -247,8 +247,9 @@ label {
     align-items: center;
     padding: 1.8rem;
     margin-bottom: -15px;
-    gap: 10rem;
+    gap: 4.3rem;
 }
+
 
 .row5 {
     display: flex;
@@ -260,7 +261,7 @@ label {
 .row5 label {
     display: flex;
     flex-direction: column;
-    width: 260px;
+    width: 455px;
 }
 
 .row7 {
@@ -273,7 +274,7 @@ label {
 .row7 label {
     display: flex;
     flex-direction: column;
-    width: 260px;
+    width: 455px;
 }
 
 .row8 {
@@ -286,7 +287,17 @@ label {
 .row8 label {
     display: flex;
     flex-direction: column;
-    width: 535px;
+    width: 455px;
+}
+
+.anexo {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: -12px;
+    width: 155px;
+    cursor: pointer;
+    
 }
 
   input[type="text"],
