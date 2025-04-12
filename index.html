@@ -104,12 +104,16 @@
                         <label for="data-nasc">Data de nascimento*:<input type="date" name="data-nasc" required></label>
 
                         <div class="checkbox-group">
-                            <label class="checkbox-item"><input type="checkbox" name="emancipado">
-                              Emancipado
-                            </label>
-                            <label class="checkbox-item"><input type="checkbox" name="adocao">
-                              Adoção Internacional
-                            </label>
+                            <div class="box1">
+                                <label class="checkbox-item"><input type="checkbox" name="emancipado">
+                                Emancipado
+                                </label>
+                            </div>
+                            <div class="box2">
+                                <label class="checkbox-item"><input type="checkbox" name="adocao">
+                                Adoção Internacional
+                                </label>
+                            </div>
                           </div>
                     </div>
 
@@ -191,14 +195,12 @@
 
                 <fieldset>
                     <legend>Nomes anteriores</legend>
-                    <small>Para cada nome anterior, digite o nome, escolha o motivo da mudança e clique em Adicionar.</small>
+
                     <div class="row8">
                         <label for="nomeAnt">Nome Anterior:
                             <input type="text" id="nomeAnt">
                         </label>
-                    </div>
 
-                    <div class="row9">
                         <label for="motivo">Motivo da mudança:
                             <select name="motivo" id="motivo">
                                 <option>Selecione</option>
@@ -207,15 +209,17 @@
                                 <option>Alteração por registro em cartório - Provimento 73/2018 CNJ</option>
                             </select>
                         </label>
-                        <label for="anexo" class="botao-anexo"></label>
-                        <input type="file" id="arquivo">
+                        <label for="add-anexo">
+                            <input type="file" id="arquivo">
+                        </label>
                     </div>
+                    <small>Para cada nome anterior, digite o nome, escolha o motivo da mudança e clique em Adicionar.</small>
                 </fieldset>
             </section>
 
             <!-- ABA 2 -->
-            <section class="tab-active" id="aba2">
-                <h2>Documentos</h2>
+            <!-- <section class="tab-active" id="aba2">
+                <h2>Documentos</h2> -->
 
 
 
@@ -224,7 +228,6 @@
 
         <!-- BOTÕES DE NAVEGAÇÃO -->
         <div class="navigation-buttons">
-            <button id="voltar" onclick="navigateTabs(-1)">Anterior</button>
             <button id="proximo" onclick="navigateTabs(1)">Próximo</button>
           </div>
         
