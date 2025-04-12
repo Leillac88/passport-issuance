@@ -47,10 +47,10 @@
 
     <main>
         <div class="progress-bar">
-            <div class="step-1">Dados Pessoais</div>
-            <div class="step-2">Documentos</div>
-            <div class="step-3">Dados complementares</div>
-            <div class="step-4">Revisar dados</div>     
+            <div class="tab1">Dados Pessoais</div>
+            <div class="tab2">Documentos</div>
+            <div class="tab3">Dados complementares</div>
+            <div class="tab4">Revisar dados</div>     
         </div>
 
         <div class="tabs">
@@ -101,11 +101,15 @@
                     </div>
 
                     <div class="row4">
-                        <label for="data-nasc">Data de nascimento*:
-                            <input type="date" name="data-nasc" required>
-                        </label>
-                        <label for="emancipado"><input type="checkbox" name="emancipado">É emancipado?</label>
-                        <label for="adocao"><input type="checkbox" name="adocao">Adoção internacional?</label>
+                        <label for="data-nasc">Data de nascimento*:<input type="date" name="data-nasc" required></label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                              <input type="checkbox" id="emancipado" name="emancipado"><label for="emancipado">Emancipado</label>
+                            </div>
+                            <div class="checkbox-item">
+                              <input type="checkbox" id="adocao" name="adocao"><label for="adocao">Adoção Internacional</label>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="row5">
