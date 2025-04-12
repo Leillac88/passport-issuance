@@ -151,15 +151,77 @@
 
                 <fieldset>
                     <legend>Local de nascimento</legend>
+                    <div class="row8">
+                        <label for="paisNasc">País*:
+                            <select name="paisNasc" id="paisNasc" required>
+                                <option>Brasil</option>
+                                <option>Espanha</option>
+                                <option>Estados Unidos</option>
+                                <option>França</option>
+                                <option>Itália</option>
+                            </select>
+                        </label>
+                    </div>
                     
+                    <div class="row9">
+                        <label for="cidadeNasc">Cidade*:
+                            <select name="cidadeNasc" id="cidadeNasc" required>
+                                <option>Selecione</option>
+                                <option>Fortaleza</option>
+                                <option>Aquiraz</option>
+                                <option>Eusébio</option>
+                                <option>Maracanaú</option>
+                            </select>
+                        </label>
 
+                        <label for="ufNasc">UF*:
+                            <select name="ufNasc" id="ufNasc" required>
+                                <option>Selecione</option>
+                                <option>CE</option>
+                            </select>
+                        </label>
+                    </div>
+                </fieldset>
 
+                <fieldset>
+                    <legend>Nomes anteriores</legend>
+                    <small>Para cada nome anterior, digite o nome, escolha o motivo da mudança e clique em Adicionar.</small>
+                    <div class="row10">
+                        <label for="nomeAnt">Nome Anterior:
+                            <input type="text" id="nomeAnt">
+                        </label>
+                    </div>
+
+                    <div class="row11">
+                        <label for="motivo">Motivo da mudança:
+                            <select name="motivo" id="motivo">
+                                <option>Selecione</option>
+                                <option>Alteração por mudança de estado civil</option>
+                                <option>Alteração por decisão judicial</option>
+                                <option>Alteração por registro em cartório - Provimento 73/2018 CNJ</option>
+                            </select>
+                        </label>
+                        <label for="anexo" class="botao-anexo"></label>
+                        <input type="file" id="arquivo">
+                    </div>
                 </fieldset>
             </section>
+
+            <!-- ABA 2 -->
+            <section class="tab-active" id="aba2">
+                <h2>Documentos</h2>
+
+
+
+            </section>
         </div>
+
+        <!-- BOTÕES DE NAVEGAÇÃO -->
+        <div class="navigation-buttons">
+            <button id="voltar" onclick="navigateTabs(-1)">Anterior</button>
+            <button id="proximo" onclick="navigateTabs(1)">Próximo</button>
+          </div>
         
     </main>
-
-
 </body>
 </html>
