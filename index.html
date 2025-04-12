@@ -110,7 +110,7 @@
 
                     <div class="row5">
                         <label for="cor">Raça ou cor*:
-                            <select name="cor" id="racaoucor">
+                            <select name="cor" id="racaoucor" required>
                                 <option>Selecione</option>
                                 <option>Amarela</option>
                                 <option>Branca</option>
@@ -121,7 +121,36 @@
                                 <option>Não desejo declarar</option>
                             </select>
                         </label>
+
+                        <label for="estadocivil">Estado Civil*:
+                            <select name="estadocivil" id="estadocivil" required>
+                                <option>Selecione</option>
+                                <option>Solteiro(a)</option>
+                                <option>Casado(a)</option>
+                                <option>Viúvo(a)</option>
+                                <option>Separado(a) judicialmente</option>
+                                <option>Divorciado(a)</option>
+                                <option>União estável</option>
+                            </select>
+                        </label>
                     </div>
+
+                    <div class="row6">
+                        <label for="nacionalidade">Nacionalidade*:
+                            <select name="nacionalidade" id="nacionalidade" required>
+                                <option>Brasil</option>
+                                <option>Espanha</option>
+                                <option>Estados Unidos</option>
+                                <option>França</option>
+                                <option>Itália</option>
+                            </select>
+                        </label>
+                        <small>(para brasileiros com múltipla nacionalidade, selecionar Brasil)</small>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Local de nascimento</legend>
                     
 
 
