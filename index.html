@@ -102,17 +102,29 @@
 
                     <div class="row4">
                         <label for="data-nasc">Data de nascimento*:<input type="date" name="data-nasc" required></label>
+
                         <div class="checkbox-group">
-                            <label class="checkbox-item"><input type="checkbox" name="emancipado" />
+                            <label class="checkbox-item"><input type="checkbox" name="emancipado">
                               Emancipado
                             </label>
-                            <label class="checkbox-item"><input type="checkbox" name="adocao" />
+                            <label class="checkbox-item"><input type="checkbox" name="adocao">
                               Adoção Internacional
                             </label>
                           </div>
                     </div>
 
                     <div class="row5">
+
+                        <label for="nacionalidade">Nacionalidade*:
+                            <select name="nacionalidade" id="nacionalidade" required>
+                                <option>Brasil</option>
+                                <option>Espanha</option>
+                                <option>Estados Unidos</option>
+                                <option>França</option>
+                                <option>Itália</option>
+                            </select>
+                        </label>
+
                         <label for="cor">Raça ou cor*:
                             <select name="cor" id="racaoucor" required>
                                 <option>Selecione</option>
@@ -140,17 +152,9 @@
                     </div>
 
                     <div class="row6">
-                        <label for="nacionalidade">Nacionalidade*:
-                            <select name="nacionalidade" id="nacionalidade" required>
-                                <option>Brasil</option>
-                                <option>Espanha</option>
-                                <option>Estados Unidos</option>
-                                <option>França</option>
-                                <option>Itália</option>
-                            </select>
-                        </label>
                         <small>(para brasileiros com múltipla nacionalidade, selecionar Brasil)</small>
                     </div>
+
                 </fieldset>
 
                 <fieldset>
@@ -165,9 +169,7 @@
                                 <option>Itália</option>
                             </select>
                         </label>
-                    </div>
-                    
-                    <div class="row9">
+
                         <label for="cidadeNasc">Cidade*:
                             <select name="cidadeNasc" id="cidadeNasc" required>
                                 <option>Selecione</option>

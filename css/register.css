@@ -71,8 +71,8 @@ main {
     width: 100%;
     max-width: none;
     margin: 0 auto;
-    padding: 1rem;
-    margin-top: 1rem;
+    padding: 2rem;
+    margin-top: 0rem;
 }
 
 .top-menu {
@@ -83,6 +83,7 @@ main {
     z-index: 1000;
     background-color: #121212;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    float: right;
   }
 
   .tabs {
@@ -115,7 +116,7 @@ main {
     margin-bottom: 1.5rem;
     counter-reset: step;
     max-width: 100%;
-    padding: 1rem;
+    padding: 0rem;
     z-index: 1000;
   }
   
@@ -194,6 +195,7 @@ label {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
+    font-size: 14px;
 }
   
 .row1 label {
@@ -213,6 +215,7 @@ label {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
+    font-size: 14px;
 }
   
 .row2 label {
@@ -232,6 +235,7 @@ label {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
+    font-size: 14px;
 }
   
 .row3 label {
@@ -251,8 +255,22 @@ label {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
+    font-size: 14px;
 }
 
+.row5 {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    font-size: 14px;
+}
+  
+.row5 label {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+  
 
 
   
@@ -265,22 +283,23 @@ label {
   input[type="file"],
   select {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.3rem;
     margin-top: 0.25rem;
     border-radius: 4px;
     border: 1px solid #444;
     background-color: #222;
     color: #eee;
+    text-transform: uppercase;
   }
   
-  input[type="checkbox"] {
+  /* input[type="checkbox"] {
     margin-right: 0.5rem;
-  }
+  } */
   
   small {
     display: block;
     margin-bottom: 0.5rem;
-    font-size: 0.875rem;
+    font-size: 0.850rem;
     color: #888;
   }
   
