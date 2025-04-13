@@ -18,7 +18,7 @@ header h1 {
 
 p {
     font-size: 14px;
-    color: #ccc;
+    color: #eaeaea;
     margin-top: 2px;
 }
 
@@ -91,16 +91,6 @@ main {
     display: none;
 }
   
-.tab.active {
-    display: block;
-    animation: fade 0.5s ease;
-}
-  
-@keyframes fade {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
 .progress-bar {
     display: flex;
     justify-content: space-between;
@@ -170,81 +160,56 @@ legend {
   
 label {
     margin-bottom: 1rem;
-    color: #ccc;
+    color: #eaeaea;
     display: block;
     flex-direction: column;
 }
 
-.row1 {
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row7,
+.row8 {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
     font-size: 14px;
 }
-  
-.row1 label {
+
+.row1 label,
+.row2 label,
+.row3 label,
+.row4 label,
+.row5 label,
+.row7 label,
+.row8 label {
     display: flex;
     flex-direction: column;
 }
-  
-.row1 label:first-child {
+
+.row1 label:first-child,
+.row2 label:first-child,
+.row3 label:first-child {
     flex: 2;
 }
-  
-.row1 label:last-child {
+
+.row1 label:last-child,
+.row2 label:last-child,
+.row3 label:last-child {
     flex: 1;
+}
+
+.row5 label,
+.row7 label,
+.row8 label {
+    width: 455px;
 }
 
 .pree-obrig {
     display: flex;
     justify-self:end;
-}
-
-.row2 {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    font-size: 14px;
-}
-  
-.row2 label {
-    display: flex;
-    flex-direction: column;
-}
-  
-.row2 label:first-child {
-    flex: 2;
-}
-  
-.row2 label:last-child {
-    flex: 1;
-}
-
-.row3 {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    font-size: 14px;
-}
-  
-.row3 label {
-    display: flex;
-    flex-direction: column;
-}
-  
-.row3 label:first-child {
-    flex: 2;
-}
-  
-.row3 label:last-child {
-    flex: 1;
-}
-
-.row4 {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    font-size: 14px;
 }
 
 .checkbox-group {
@@ -255,46 +220,6 @@ label {
     gap: 4.3rem;
 }
 
-
-.row5 {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    font-size: 14px;
-}
-  
-.row5 label {
-    display: flex;
-    flex-direction: column;
-    width: 455px;
-}
-
-.row7 {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    font-size: 14px;
-}
-  
-.row7 label {
-    display: flex;
-    flex-direction: column;
-    width: 455px;
-}
-
-.row8 {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    font-size: 14px;
-}
-  
-.row8 label {
-    display: flex;
-    flex-direction: column;
-    width: 455px;
-}
-
 .anexo {
     display: flex;
     align-items: center;
@@ -302,7 +227,6 @@ label {
     margin-bottom: -12px;
     width: 155px;
     cursor: pointer;
-    
 }
 
   input[type="text"],
@@ -352,3 +276,50 @@ button:focus {
     background-color: #e6b800;
 }
 
+@media (max-width: 768px) {
+    .row1,
+    .row2,
+    .row3,
+    .row4,
+    .row5,
+    .row7,
+    .row8 {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .row1 label,
+    .row2 label,
+    .row3 label,
+    .row4 label,
+    .row5 label,
+    .row7 label,
+    .row8 label {
+      width: 100%;
+    }
+  
+    .checkbox-group {
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 0;
+      margin: 0;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .progress-bar {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .navigation-buttons {
+      justify-content: center;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
