@@ -36,10 +36,10 @@ passport-issuance/
 🌍 Acesse a versão publicada em: [Emissão de Passaporte](https://leillac88.github.io/passport-issuance)
 
 ---
+## 🛡️ Direitos Autorais e Reconhecimentos
 
-## 📄 Direitos Autorais e Reconhecimentos
-
-📚 Este projeto foi desenvolvido exclusivamente para fins de **aprendizado** no âmbito da formação **Geração Tech**.
+Este projeto é de autoria de **Leillac88**.  
+O uso e redistribuição do código estão permitidos sob os termos da licença presente neste repositório.
 
 🔐 Todos os direitos, símbolos, brasões e conteúdos oficiais da **Polícia Federal do Brasil** são protegidos por lei e pertencem ao governo federal.  
 Este repositório **não tem vínculo oficial** com a Polícia Federal e **não deve ser usado como ferramenta oficial de solicitação de documentos**.
