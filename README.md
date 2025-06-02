@@ -16,7 +16,6 @@ Desenvolver uma interface moderna, acessível e responsiva simulando o processo 
 
 - **HTML5** – Estrutura semântica da página
 - **CSS3** – Estilização com foco em acessibilidade e responsividade
-- **JavaScript** – Funcionalidades interativas básicas
 - **GitHub Pages** – Hospedagem gratuita e pública do projeto
 
 ---
@@ -27,7 +26,6 @@ Desenvolver uma interface moderna, acessível e responsiva simulando o processo 
 passport-issuance/
 ├── index.html           # Página principal
 ├── style.css            # Estilos personalizados
-├── script.js            # Lógica interativa (se aplicável)
 └── README.md            # Documentação do projeto
 ```
 
