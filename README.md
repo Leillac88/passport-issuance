@@ -1,6 +1,6 @@
 # 🌐 Projeto Passport Issuance – Emissão de Passaportes
 
-Este repositório contém um projeto **conceitual** de um novo site de **emissão de passaportes** inspirado na interface da Polícia Federal, desenvolvido durante a **formação Geração Tech**.
+Este repositório contém um projeto **conceitual** de um novo site de **emissão de passaportes** inspirado na interface da Polícia Federal, desenvolvido para um projeto **Geração Tech**.
 
 > ⚠️ **Atenção:** Este projeto é apenas uma simulação para fins de aprendizado. Não representa nem substitui os canais oficiais da Polícia Federal do Brasil.
 
